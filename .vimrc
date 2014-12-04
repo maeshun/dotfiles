@@ -38,6 +38,13 @@ let g:indent_guides_enable_on_vim_startup = 1
 
 filetype plugin indent on     " required!
 filetype indent on
+
 colorscheme molokai
+" colorscheme desert 
 syntax on
+
+" 検索ワードを入力したら即検索する
+set incsearch
+" 行番号を表示
+set number
 
